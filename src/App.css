@@ -1,0 +1,12 @@
+.App {
+  margin: 0 auto;
+  /* padding: 4vw 3vw 1vw 3vw; */
+  font-size: 2.8rem;
+  height: 100vh;
+  width: 100%;
+  max-width: 120rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2.8rem;
+}

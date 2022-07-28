@@ -1,0 +1,143 @@
+.li {
+  /* max-width: 24rem; */
+
+  padding: 1.8rem;
+
+  list-style: none;
+  background-color: #dee2e6;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 2.8rem;
+
+  border-radius: 18px;
+
+  cursor: pointer;
+
+  box-shadow: 0 5px 10px #0003;
+
+  transition: 200ms ease-in-out;
+}
+
+.li:hover {
+  box-shadow: 0 10px 20px #0002;
+  transform: scale(1.02);
+}
+
+.texts {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  color: #fff;
+}
+
+.texts h3 {
+  font-size: 2rem;
+}
+
+.texts h4 {
+  font-size: 1.4rem;
+}
+
+.img-container {
+  width: 65%;
+}
+
+.img {
+  width: 100%;
+  height: 10rem;
+  object-fit: fill;
+}
+
+.type-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+
+  gap: 0.8rem;
+}
+
+.type-container li {
+  padding: 0.4rem 1.2rem;
+
+  border-radius: 100rem;
+
+  list-style: none;
+  text-transform: uppercase;
+
+  font-size: 1.2rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+
+  /* border: 2px solid #fff2; */
+  background-color: rgba(255, 255, 255, 0.4);
+  color: #fff;
+}
+
+.normal {
+  background-color: #adb5bd;
+}
+
+.fire {
+  background-color: #fd7e14;
+}
+
+.water {
+  background-color: #15aabf;
+}
+
+.electric {
+  background-color: #fcc419;
+}
+
+.grass {
+  background-color: #40c057;
+}
+
+.ice {
+  background-color: #66d9e8;
+}
+
+.fighting {
+  background-color: #ffd8a8;
+}
+
+.poison {
+  background-color: #7950f2;
+}
+
+.ground {
+  background-color: #ffc078;
+}
+
+.flying {
+  background-color: #748ffc;
+}
+
+.bug {
+  background-color: #94d82d;
+}
+
+.rock {
+  background-color: #f08c00;
+}
+
+.ghost {
+  background-color: #5f3dc4;
+}
+
+.dark {
+  background-color: #495057;
+}
+
+.steel {
+  background-color: #868e96;
+}
+
+.fairy {
+  background-color: #f06595;
+}
